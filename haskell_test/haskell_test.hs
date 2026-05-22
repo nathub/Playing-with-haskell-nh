@@ -1,6 +1,6 @@
 -- testing pattern matching and guards
 --isXFactorOfY :: Num a => a -> a -> Bool MY definition, which caused compile error
-isXFactorOfY :: (RealFrac a, Integral a) => a -> a -> Bool -- GHCi 's suggested 
+isXFactorOfY :: (RealFrac a, Integral a) => a -> a -> Bool -- GHCi 's suggested , still broken
 isXFactorOfY 0 0 = True
 isXFactorOfY 0 y = False
 isXFactorOfY x 0 = False
