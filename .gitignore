@@ -1,3 +1,5 @@
 #git ignore file for Playing with Haskell Nh
 *.hi
 *.o
+haskell_bekbrace/haskell_course_bekbrace
+haskell_bekbrace/hello
