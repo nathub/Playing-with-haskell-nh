@@ -11,7 +11,3 @@ isXFactorOfY x y        | x > y = False
                         | abs(y / x) > floor( abs $ y / x ) = False
                         | otherwise = True
 
-
--- Haskell Programming Full Course 2024
--- By BekBrace  https://youtu.be/TklkNLihQ_A
-
