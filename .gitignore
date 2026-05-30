@@ -1,0 +1,3 @@
+#git ignore file for Playing with Haskell Nh
+*.hi
+*.o
