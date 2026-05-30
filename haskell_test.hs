@@ -27,6 +27,15 @@ mytake 0 _ = []
 mytake _ [] = []
 mytake n (x:xs) = x : mytake (n-1) xs
 
-myelem :: [a] -> a -> Bool
+
+myelem :: Eq a => [a] -> a -> Bool -- elem "does a list contain a given element?"
 myelem [] _ = False
 myelem (x:xs) d = d == x || myelem xs d 
+
+
+-- mysorted :: XXXX -- sorted "is a list sorted?"
+
+-- peppidesu second video https://www.youtube.com/watch?v=7JK6qtpKLoQ
+
+
+
